@@ -405,8 +405,9 @@ $config['proxy_ips'] = '';
 | The favorite languages, that's at the beginning of the list.
 |
  */
-$config['favorite_languages'] = array('text', 'html5', 'css', 'javascript', 'php', 'python', 'ruby',
-    'lua', 'bash', 'erlang', 'go', 'c', 'cpp', 'diff', 'latex', 'sql', 'xml');
+/*$config['favorite_languages'] = array('text', 'html5', 'css', 'javascript', 'php', 'python', 'ruby',
+    'lua', 'bash', 'erlang', 'go', 'c', 'cpp', 'diff', 'latex', 'sql', 'xml');*/
+$config['favorite_languages'] = array('c');
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */
