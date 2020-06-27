@@ -52,7 +52,7 @@ $config['db_prefix'] = '';
  * Currently: default, bootstrap, gabdark, gabdark3, geocities, snowkat, stikkedizr, cleanwhite, i386
  *
  */
-$config['theme'] = 'bootstrap';
+$config['theme'] = 'bootstrap_arduino';
 
 /**
  * Display QR code
@@ -238,7 +238,7 @@ $config['recaptcha_privatekey'] = '';
 $config['disable_api'] = true;
 $config['disable_keep_forever'] = false;
 $config['blocked_words'] = '';
-$config['disable_shorturl'] = false;
+$config['disable_shorturl'] = true;
 $config['disallow_search_engines'] = false;
 
 //spamadmin: accessible via /spamadmin (only active when user + pass is set)
