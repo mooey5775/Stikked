@@ -231,7 +231,8 @@ $config['soft_api'] = false;
  * disallow_search_engines: displays a robots.txt that forbids indexing
  *
  **/
-$config['private_only'] = true;
+$config['private_only'] = false;
+$config['private_default'] = true;
 $config['enable_captcha'] = false;
 $config['recaptcha_publickey'] = '';
 $config['recaptcha_privatekey'] = '';

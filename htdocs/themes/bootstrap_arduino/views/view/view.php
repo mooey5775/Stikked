@@ -36,7 +36,7 @@ if(isset($insert)){
 <?php }else{ ?>
             - <a href="<?php echo $url; ?>"><?php echo lang('paste_goback'); ?></a>
 <?php }?>
-					<div class="detail"><span class="item"><?php echo lang('paste_url'); ?> </span><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
+					<div class="detail" id="paste_url"><span class="item"><?php echo lang('paste_url'); ?> </span><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
 					<?php if(!empty($snipurl)){?>
 						<div class="detail"><div class="item"><?php echo lang('paste_shorturl');?> </div><a href="<?php echo $snipurl; ?>"><?php echo htmlspecialchars($snipurl) ?></a></div>
 					<?php }?>

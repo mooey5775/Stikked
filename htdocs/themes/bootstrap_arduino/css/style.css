@@ -135,3 +135,11 @@ table.table thead .sorting_desc_disabled { background: url('../images/sort_desc_
     z-index: 100;
     border:1px dotted black;
 }
+
+/* custom arduino CSS */
+
+#paste_url {
+	font-size: 2em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}

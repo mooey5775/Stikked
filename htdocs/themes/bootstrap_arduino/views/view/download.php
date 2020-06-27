@@ -1,5 +1,4 @@
 <?php
-header('Content-type: text/plain');
-header('Content-disposition: attachment');
-//todo: nice filename header('Content-disposition: attachment;filename=' . $title . '.' . $lang_code);
+header('Content-type: text/x-c++src');
+header('Content-disposition: attachment; filename=' . $title);
 echo htmlspecialchars_decode($raw);
