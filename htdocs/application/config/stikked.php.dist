@@ -8,7 +8,7 @@
  * The name of your site
  *
  */
-$config['site_name'] = 'Stikked';
+$config['site_name'] = 'Arduino Sketch Share';
 
 /**
  * Base URL
@@ -52,7 +52,7 @@ $config['db_prefix'] = '';
  * Currently: default, bootstrap, gabdark, gabdark3, geocities, snowkat, stikkedizr, cleanwhite, i386
  *
  */
-$config['theme'] = 'default';
+$config['theme'] = 'bootstrap_arduino';
 
 /**
  * Display QR code
@@ -73,7 +73,7 @@ $config['qr_enabled'] = true;
  * ACE:         >800kb JS
  *
  */
-$config['js_editor'] = ''; // codemirror, ace, ''
+$config['js_editor'] = 'ace'; // codemirror, ace, ''
 
 /**
  * Language
@@ -232,13 +232,14 @@ $config['soft_api'] = false;
  *
  **/
 $config['private_only'] = false;
-$config['enable_captcha'] = true;
+$config['private_default'] = true;
+$config['enable_captcha'] = false;
 $config['recaptcha_publickey'] = '';
 $config['recaptcha_privatekey'] = '';
-$config['disable_api'] = false;
+$config['disable_api'] = true;
 $config['disable_keep_forever'] = false;
 $config['blocked_words'] = '';
-$config['disable_shorturl'] = false;
+$config['disable_shorturl'] = true;
 $config['disallow_search_engines'] = false;
 
 //spamadmin: accessible via /spamadmin (only active when user + pass is set)
@@ -266,7 +267,7 @@ $config['default_expiration'] = 0;
  * Preselected language. See application/config/geshi_languages.php for valid values (array keys)
  *
  **/
-$config['default_language'] = 'text';
+$config['default_language'] = 'c';
 
 /**
  * Name for anonymous poster
