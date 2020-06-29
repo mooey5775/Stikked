@@ -343,7 +343,7 @@ class Main extends CI_Controller
             $data['name_set'] = $this->session->userdata('name');
             $data['expire_set'] = $this->session->userdata('expire');
             // $data['private_set'] = $this->session->userdata('private');
-            $data['private_set'] = $data['private_set'] ? 1 : 0;
+            $data['private_set'] = config_item('private_default') ? 1 : 0;
             $data['snipurl_set'] = $this->session->userdata('snipurl');
             $data['paste_set'] = $paste;
             $data['title_set'] = $title;
