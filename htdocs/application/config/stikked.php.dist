@@ -232,7 +232,7 @@ $config['soft_api'] = false;
  *
  **/
 $config['private_only'] = false;
-$config['private_default'] = true;
+$config['private_default'] = false;
 $config['enable_captcha'] = false;
 $config['recaptcha_publickey'] = '';
 $config['recaptcha_privatekey'] = '';
