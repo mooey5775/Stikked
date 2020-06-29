@@ -4,3 +4,5 @@ htdocs/stikked.db
 htdocs/application/config/stikked.php
 htdocs/application/logs/*
 nbproject
+
+mysql-datadir_customize-in-docker-compose.yml/
